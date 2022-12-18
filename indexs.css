@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input {
+    font-size: 16px;
+    padding: 13px;
+    width: 300px;
+  }
+
+  input[type=text] {
+    color: black;
+    margin: 0 0 0 5px;
+    border-radius: 25px;
+  }
+
+  input[type=submit] {
+    font-size: 15px;
+    width: 190px;
+    border-width: 0px;
+    margin: 10px;
+    border-radius: 10px; /* border radius is used to make the corners round*/
+  }
+
+  input[type=text]{
+    font-size: 14px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: none;
+  }
+
+  .header, .red-link {
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    gap: 10px;
+    color: black;
+  }
+
+  .red-link {
+    margin-left: auto;
+  }
+
+  input[type=submit]:hover {
+    box-shadow: 0px 0px 2px black;/* box shadow is used to add shadow to a function*/
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* Align the search container at the center */
+    align-items: center;
+    height: 90%; /* extend the search bar by a tiny bit*/
+  }
+
+  .search > input {
+    border: none;
+    border-radius: 25px;
+  }
+  
+
+
+
+
+
+
+
+  
+
+
+
